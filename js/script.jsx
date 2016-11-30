@@ -309,7 +309,7 @@ return (
 <div className={this.state.gameOver? "container gameOver":"container "}>
 
 <header>
-<a href="#0" className="title">HANGMANIZR</a>
+<a href="https://mburakerman.github.io/hangmanizr/" className="title">HANGMANIZR</a>
 <p className="description">Quick Hangman Game</p>
 </header>
 
