@@ -351,15 +351,15 @@ S18.707,11.274,18.346,11.274z M18.346,6.69H6.56c-0.362,0-0.655,0.293-0.655,0.655
 <div className={this.state.gameStarted ? "game-levels-wrapper pointer-events-none":"game-levels-wrapper pointer-events-auto"}>
 
 <button onClick={this.easyLevel} clasName="easy-mode" value="easy" disabled={this.state.chosenLevel === "easy"}>
-<svg className="svg-icon" viewBox="0 0 20 20">
+<svg onClick={this.easyLevel} className="svg-icon" viewBox="0 0 20 20">
 <path fill="none" d="M18.737,9.691h-5.462c-0.279,0-0.527,0.174-0.619,0.437l-1.444,4.104L8.984,3.195c-0.059-0.29-0.307-0.506-0.603-0.523C8.09,2.657,7.814,2.838,7.721,3.12L5.568,9.668H1.244c-0.36,0-0.655,0.291-0.655,0.655c0,0.36,0.294,0.655,0.655,0.655h4.8c0.281,0,0.532-0.182,0.621-0.45l1.526-4.645l2.207,10.938c0.059,0.289,0.304,0.502,0.595,0.524c0.016,0,0.031,0,0.046,0c0.276,0,0.524-0.174,0.619-0.437L13.738,11h4.999c0.363,0,0.655-0.294,0.655-0.655C19.392,9.982,19.1,9.691,18.737,9.691z"></path></svg> Easy</button>
 
 <button onClick={this.mediumLevel} clasName="medium-mode" value="medium" disabled={this.state.chosenLevel === "medium"}>
-<svg className="svg-icon" viewBox="0 0 20 20">
+<svg onClick={this.mediumLevel} className="svg-icon" viewBox="0 0 20 20">
 <path fill="none" d="M18.737,9.691h-5.462c-0.279,0-0.527,0.174-0.619,0.437l-1.444,4.104L8.984,3.195c-0.059-0.29-0.307-0.506-0.603-0.523C8.09,2.657,7.814,2.838,7.721,3.12L5.568,9.668H1.244c-0.36,0-0.655,0.291-0.655,0.655c0,0.36,0.294,0.655,0.655,0.655h4.8c0.281,0,0.532-0.182,0.621-0.45l1.526-4.645l2.207,10.938c0.059,0.289,0.304,0.502,0.595,0.524c0.016,0,0.031,0,0.046,0c0.276,0,0.524-0.174,0.619-0.437L13.738,11h4.999c0.363,0,0.655-0.294,0.655-0.655C19.392,9.982,19.1,9.691,18.737,9.691z"></path></svg> Medium</button>
 
 <button onClick={this.hardLevel} clasName="hard-mode" value="hard" disabled={this.state.chosenLevel === "hard"}>
-<svg className="svg-icon" viewBox="0 0 20 20">
+<svg onClick={this.hardLevel} className="svg-icon" viewBox="0 0 20 20">
 <path fill="none" d="M18.737,9.691h-5.462c-0.279,0-0.527,0.174-0.619,0.437l-1.444,4.104L8.984,3.195c-0.059-0.29-0.307-0.506-0.603-0.523C8.09,2.657,7.814,2.838,7.721,3.12L5.568,9.668H1.244c-0.36,0-0.655,0.291-0.655,0.655c0,0.36,0.294,0.655,0.655,0.655h4.8c0.281,0,0.532-0.182,0.621-0.45l1.526-4.645l2.207,10.938c0.059,0.289,0.304,0.502,0.595,0.524c0.016,0,0.031,0,0.046,0c0.276,0,0.524-0.174,0.619-0.437L13.738,11h4.999c0.363,0,0.655-0.294,0.655-0.655C19.392,9.982,19.1,9.691,18.737,9.691z"></path></svg> Hard</button>
 
 </div>
