@@ -57,7 +57,7 @@ var MyCom = React.createClass({
 
 	},
 	htmlElementsGame:function(e) {
-		var htmlElements = ["base", "head", "link", "metal", "style", "title", "address", "article", "aside", "footer", "header", "h1", "h2", "h3", "h4", "h5", "h6", "hgroup", "nav", "section", "dd", "div", "dl", "dt", "figcaption", "figure", "hr", "li", "main", "ol", "p", "pre", "ul", "a", "abbr", "b", "bdi", "bdo", "br", "cite", "code", "data", "dfn", "em", "i", "kbd", "mark", "q", "rp", "rt", "rtc", "ruby", "s", "samp", "small", "span", "strong", "sub", "sup", "time", "u", "var", "wbr", "area", "audio", "img", "map", "track", "video", "embed", "object", "param", "source", "canvas", "noscript", "script", "del", "ins", "caption", "col", "colgroup", "table", "tbody", "td", "tfoot", "th", "thead", "tr", "button", "datalist", "fieldset", "form", "input", "label", "legend", "meter", "optgroup", "option", "output", "progress", "select", "textarea", "details", "dialog", "menu", "menuitem", "summary", "content", "element", "shadow", "template", "acronym", "applet", "basefont", "big", "blink", "center", "command", "content", "dir", "font", "frame", "frameset", "isindex", "keygen", "listing", "marquee", "multicol", "nextid", "noembed", "plaintext", "spacer", "strike", "tt", "xmp"];
+		var htmlElements = ["base", "head", "link", "metal", "style", "title", "address", "article", "aside", "footer", "header", "hgroup", "nav", "section", "dd", "div", "dl", "dt", "figcaption", "figure", "hr", "li", "main", "ol", "p", "pre", "ul", "a", "abbr", "b", "bdi", "bdo", "br", "cite", "code", "data", "dfn", "em", "i", "kbd", "mark", "q", "rp", "rt", "rtc", "ruby", "s", "samp", "small", "span", "strong", "sub", "sup", "time", "u", "var", "wbr", "area", "audio", "img", "map", "track", "video", "embed", "object", "param", "source", "canvas", "noscript", "script", "del", "ins", "caption", "col", "colgroup", "table", "tbody", "td", "tfoot", "th", "thead", "tr", "button", "datalist", "fieldset", "form", "input", "label", "legend", "meter", "optgroup", "option", "output", "progress", "select", "textarea", "details", "dialog", "menu", "menuitem", "summary", "content", "element", "shadow", "template", "acronym", "applet", "basefont", "big", "blink", "center", "command", "content", "dir", "font", "frame", "frameset", "isindex", "keygen", "listing", "marquee", "multicol", "nextid", "noembed", "plaintext", "spacer", "strike", "tt", "xmp"];
 
 		this.setState({
 			words:htmlElements,
@@ -394,7 +394,7 @@ render: function() {
 		H115.542c-3.545,0-6.518-2.677-6.888-6.201l-3.406-32.421c-0.205-1.951,0.428-3.898,1.741-5.357
 		c1.313-1.458,3.184-2.291,5.146-2.291h246.379c1.973,0,3.852,0.842,5.166,2.313c1.314,1.472,1.938,3.434,1.715,5.394L360.51,141.611z" /></svg> CSS Properties</button>
 
-		<button  data-tooltip="135 words" className="topic" onClick={this.htmlElementsGame} value="html" disabled={this.state.clickedButton === "html"}><svg viewBox="0 0 456.804 456.804" className="topicsSvg htmlSvg">
+		<button  data-tooltip="129 words" className="topic" onClick={this.htmlElementsGame} value="html" disabled={this.state.clickedButton === "html"}><svg viewBox="0 0 456.804 456.804" className="topicsSvg htmlSvg">
 		<path d="M27.405,0l36.542,410.56l163.882,46.244l165.022-46.244L429.398,0H27.405z M350.025,133.904h-192.43l4.283,51.676h183.866
 		l-14.273,155.315l-102.499,28.26v0.287h-1.143l-103.356-28.547l-6.28-79.367h49.965l3.711,39.971l55.959,15.126l56.245-15.126
 		l6.283-65.097H115.625l-13.418-152.46h252.392L350.025,133.904z" /></svg> HTML Elements</button>
