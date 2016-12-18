@@ -14,6 +14,7 @@ box-sizing: border-box;
 }
 body , html {
 font-family: 'Nunito', sans-serif;
+font-weight:700;
 width: 100%;
 height: 100%;
 /*
@@ -160,6 +161,7 @@ padding: 0 10px;
 }
 .start-game-buttons-wrapper button {
 font-family: 'Nunito', sans-serif;
+font-weight:700;
 background:#42716d;
 margin-top:10px;
 color:#fff;
