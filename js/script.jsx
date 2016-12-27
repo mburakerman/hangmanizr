@@ -141,6 +141,13 @@ checkLetter: function(e) {
 				matchedLetters: _this.state.matchedLetters,
 				lives:_this.state.lives
 			});
+			
+	         if( this.state.lives < 1 ) {
+		       this.setState( { 
+		         nextWord:false
+	            });
+		  }
+		 
 		}
 	});
 
