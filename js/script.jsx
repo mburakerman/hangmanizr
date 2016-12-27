@@ -144,7 +144,7 @@ checkLetter: function(e) {
 		}
 	});
 
-if( this.state.lives < 1 ) { // if lives >= 6
+if( this.state.lives < 1 ) { // if lives...
 
 	this.setState( { 
 		nextWord:true,
@@ -218,7 +218,7 @@ this.setState({
 }.bind(this), 2500);
 {/* check game setTimeout */}
 
-}// if lives >= 6
+}// if lives...
 
 {/* if the word is found, continue the game */}
 if(this.state.letters.length == this.state.matchedLetters.length) {  
