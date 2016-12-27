@@ -144,7 +144,7 @@ checkLetter: function(e) {
 		}
 	});
 
-if(this.state.clickedLetters.length - this.state.matchedLetters.length > this.state.initialLives ) { // if lives >= 6
+if( this.state.lives < 1 ) { // if lives >= 6
 
 	this.setState( { 
 		nextWord:true,
