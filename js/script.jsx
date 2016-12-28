@@ -142,7 +142,7 @@ checkLetter: function(e) {
 				lives:_this.state.lives
 			});
 			
-		if( this.state.lives < 1 ) {
+		if( _this.state.lives < 1 ) {
 		    this.setState( { 
 		       nextWord:false
 	            });
