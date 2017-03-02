@@ -143,9 +143,11 @@ checkLetter: function(e) {
 			});
 			
 	         if( _this.state.lives < 1 ) {
+	             if(_this.state.letters.length !== _this.state.matchedLetters.length) {
 		       this.setState( { 
 		         nextWord:false
-	            });
+	                });
+		     }
 		  }
 		 
 		}
