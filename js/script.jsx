@@ -490,7 +490,7 @@ S4.143,6.98,3.674,6.98z"></path>
 </div>
 
 <footer>
-<p className="copyright">© 2016 <a href="https://mburakerman.github.io/" target="_blank" rel="external">Mehmet Burak Erman</a></p>
+<p className="copyright">© 2017 <a href="https://mburakerman.github.io/" target="_blank" rel="external">Mehmet Burak Erman</a></p>
 <p className="built-with">Built with <span className="heart">❤</span> <img className="react-logo" src={'./img/reactjs-logo.svg'} alt="React.js Logo" title="React.js"/></p>
 </footer>
 
