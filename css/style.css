@@ -460,6 +460,12 @@ header .description {
     margin-bottom: 10px;
 }
 
+@media screen and (max-width: 600px) {
+  .game-levels-wrapper {
+     margin-bottom: 20px;
+  }
+}
+
 .game-levels-wrapper button {
     font-family: 'Nunito', sans-serif;
     opacity: 0.5;
