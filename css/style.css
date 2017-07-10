@@ -207,11 +207,8 @@ body , html {
     font-weight: 700;
     width: 100%;
     height: 100%;
-/*
-background: linear-gradient(180deg, rgb(77, 43, 56), rgb(40, 62, 70));
-background: -webkit-linear-gradient(180deg, rgb(77, 43, 56), rgb(40, 62, 70));
-*/
     background: #3D343E;
+    line-height:1.5;
 }
 /* svg-icon */
 .svg-icon {
